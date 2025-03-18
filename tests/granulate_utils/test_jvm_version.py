@@ -138,7 +138,7 @@ Zing 64-Bit Tiered VM 20.02.201.0+1 (product build 11.0.7-zing_20.02.201.0-b1-pr
             JvmVersion(
                 Version("11.0.7.0.101"), 10, "Zing 64-Bit Tiered VM 20.02.201.0+1", "Zing", Version("20.02.201")
             ),
-        )
+        ),
         # TODO: add error cases here
     ],
 )
