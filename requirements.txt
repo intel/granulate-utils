@@ -1,7 +1,7 @@
 psutil~=5.9.8
-requests~=2.31.0
-grpcio~=1.43.0
-protobuf~=3.19.4
+requests~=2.32.3
+grpcio~=1.71.0
+protobuf~=5.29.3
 docker~=7.0.0
 dataclasses~=0.8; python_version < '3.7'
 typing-extensions>=4.9.0
