@@ -1,6 +1,6 @@
 # Granulate's shared Python utilities
 
-Supports Python 3.8+.
+Supports Python 3.10+
 
 ## Testing
 
