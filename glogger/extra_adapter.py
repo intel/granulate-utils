@@ -37,7 +37,9 @@ class ExtraAdapter(logging.LoggerAdapter):
         non-standard kwargs available under an "extra" key. Default implementation merges existing attributes with
         default ones provided at initialization.
         """
-        return {**self.extra, **kwargs.get("extra", {})}
+        if self.extra is not None:
+            return {**self.extra, **kwargs.get("extra", {})}
+        return kwargs.get("extra", {})
 
     def process(self, msg: Any, kwargs: MutableMapping[str, Any]) -> Tuple[Any, MutableMapping[str, Any]]:
         # Partition the kwargs into logging kwargs and extra kwargs:

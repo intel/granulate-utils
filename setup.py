@@ -41,7 +41,7 @@ setuptools.setup(
     package_data={"granulate_utils": ["py.typed"], "glogger": ["py.typed"]},
     include_package_data=True,
     install_requires=read_requirements("requirements.txt"),
-    python_requires=">=3.8",
+    python_requires=">=3.10",
     setup_requires=["setuptools-git-versioning<2"],
     setuptools_git_versioning={
         "enabled": True,
